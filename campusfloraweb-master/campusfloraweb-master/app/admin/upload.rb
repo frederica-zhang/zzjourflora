@@ -1,5 +1,5 @@
 ActiveAdmin.register Upload do
-  active_admin_importable
+    active_admin_importable
     action_item :only => :index do
       link_to 'Upload CSV', :action => 'upload_csv'
     end
