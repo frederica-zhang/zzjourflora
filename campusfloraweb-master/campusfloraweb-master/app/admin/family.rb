@@ -1,4 +1,5 @@
 ActiveAdmin.register Family do
+  active_admin_importable
   permit_params :name, :phylogeny
 
   controller do
